@@ -1,0 +1,43 @@
+.class{
+    display: flex;
+    padding: 10px;
+    border:1px solid #aaa;
+    margin:0 20px;
+    ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        li{
+            border:1px solid #A3D0FD;
+            background:  #E6F1FC;
+            color:#1890FF;
+            margin:5px 10px;
+            padding:2px 20px;
+            border-radius: 5px;
+            flex-shrink: 0;
+        }
+        .show{
+            background: #0076FF;
+            color: #fff;
+        }
+    }
+    p{
+        padding: 2px 20px;
+        border:1px solid #aaa;
+        margin:5px 10px; 
+        border-radius: 5px;
+        flex-shrink: 0;
+    }
+}
+.class>span{
+    flex-shrink: 0;
+    margin: 5px 10px;
+}
+.addClassIpt{
+    margin:10px 0;
+    input{
+        height: 40px;
+        padding-left: 10px;
+        width: 70%;
+    }
+}

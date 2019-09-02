@@ -1,0 +1,36 @@
+.sidebar{
+    width: 200px;
+    height: 100%;
+    background: #eee;
+    padding: 20px;
+    position: fixed;
+    top:0px;
+    right:-200px;
+    transition: all 1s;
+  }
+  .fixed{
+    position: absolute;
+    top:50%;
+    left: -26px;
+    font-size: 30px;
+    margin-top:-50px;
+  }
+  .hidden{
+    right:0px;
+    transition: all 1s;
+  }
+  .sidebar li{
+    width: 100%;
+    padding: 10px;
+  }
+  .sidebar li>div{
+    padding:10px 0 0 10px;
+  }
+  .search{
+    height: 30px;
+    background: #ccc;
+    padding-left: 10px;
+  }
+  .router-link-active{
+    color:#f90;
+  }
